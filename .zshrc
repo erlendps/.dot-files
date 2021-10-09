@@ -48,3 +48,4 @@ alias resinnsida="sudo systemctl restart uwsgi-custom@innsida-erlendps.uka.no.se
 alias confzsh="vim ~/.dot-files/.zshrc"
 alias sourcezsh="source ~/.zshrc"
 alias mcass="mosh cassarossa.samfundet.no -6"
+alias python="python3"
