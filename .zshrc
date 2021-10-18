@@ -2,6 +2,15 @@
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=$HOME/.local/bin:$PATH
 
+
+# export various files to path
+host="$(hostname)"
+
+if [ "$host" = "cookie" ];
+then
+    export PATH=/opt/apache-maven-3.8.3/bin:$PATH
+fi
+
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
@@ -49,3 +58,5 @@ alias confzsh="vim ~/.dot-files/.zshrc"
 alias sourcezsh="source ~/.zshrc"
 alias mcass="mosh cassarossa.samfundet.no -6"
 alias python="python3"
+alias python310="python3.10"
+alias svenv="source venv/bin/activate"
