@@ -47,7 +47,6 @@ function virtualenv_info {
 }
 
 
-alias pyhton="python3"
 alias cass="ssh cassarossa.samfundet.no"
 alias cirkus="ssh cirkus.samfundet.no"
 alias cls="clear"
