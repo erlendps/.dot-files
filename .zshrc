@@ -67,3 +67,5 @@ alias mcass6="mosh cassarossa.samfundet.no -6"
 alias python="python3"
 alias python310="python3.10"
 alias svenv="source venv/bin/activate"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
