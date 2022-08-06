@@ -14,7 +14,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
-" Plugin 'ycm-core/youcompleteme'
+Plugin 'ycm-core/youcompleteme'
 Plugin 'vim-airline/vim-airline'
 Plugin 'arcticicestudio/nord-vim'
 Plugin 'vim-airline/vim-airline-themes'
